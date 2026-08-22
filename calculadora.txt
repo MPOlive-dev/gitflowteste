@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        Console.Write("Calculadora");
         Console.Write("Digite o primeiro número: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
@@ -13,5 +14,6 @@ class Program
         double resultado = num1 * num2;
 
         Console.WriteLine($"A soma final de {num1} e {num2} é: {resultado}");
+        Console.WriteLine("Final da Calculadora");
     }
 }
